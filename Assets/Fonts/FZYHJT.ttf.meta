@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9b0dfb820a3c34143b3cbaa379b3001f
+timeCreated: 1527734993
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FZYiHei-M20S
+  fontNames:
+  - FZYiHei-M20S
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

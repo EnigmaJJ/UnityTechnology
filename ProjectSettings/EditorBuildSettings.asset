@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 4a7e60fddc536514ea794aa84ae5b2bd
   - enabled: 1
+    path: Assets/Scenes/FastGaussianBlur.unity
+    guid: d7583b5a92f306a42b1d7aecba678021
+  - enabled: 1
     path: Assets/Scenes/ProceduralTerrain.unity
     guid: b9e9526f8f52a9e4a9e8437b636b8026
