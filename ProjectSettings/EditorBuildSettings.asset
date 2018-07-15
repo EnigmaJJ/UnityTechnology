@@ -12,5 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FastGaussianBlur.unity
     guid: d7583b5a92f306a42b1d7aecba678021
   - enabled: 1
+    path: Assets/Scenes/Classic_ECS_JobSystem.unity
+    guid: 9674056a79fc86646a56525c0881475b
+  - enabled: 1
     path: Assets/Scenes/ProceduralTerrain.unity
     guid: b9e9526f8f52a9e4a9e8437b636b8026
+  m_configObjects: {}

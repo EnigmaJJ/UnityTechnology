@@ -418,6 +418,8 @@ MonoBehaviour:
     m_Options:
     - m_Text: Fast Gaussian Blur
       m_Image: {fileID: 0}
+    - m_Text: Classic & Job System & ECS
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1581,8 +1583,8 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 9b0dfb820a3c34143b3cbaa379b3001f, type: 3}
     m_FontSize: 160
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
+    m_BestFit: 1
+    m_MinSize: 80
     m_MaxSize: 160
     m_Alignment: 3
     m_AlignByGeometry: 0

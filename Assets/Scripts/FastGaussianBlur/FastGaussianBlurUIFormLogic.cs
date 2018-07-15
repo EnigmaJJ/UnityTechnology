@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/******************************************************************************
+ * DESCRIPTION: FastGaussianBlur UI逻辑
+ * 
+ *     Copyright (c) 2018, 谭伟俊 (TanWeijun)
+ *     All rights reserved
+ * 
+ * COMPANY:
+ * CREATED: 2018.06.22, 19:07, CST
+*******************************************************************************/
+
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace UnityTechnology
