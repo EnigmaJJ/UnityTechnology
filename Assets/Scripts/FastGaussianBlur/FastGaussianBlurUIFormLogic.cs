@@ -53,11 +53,6 @@ namespace UnityTechnology
         {
             Blur.GammaCorrection = _value;
         }
-
-        public void ClickUpdate()
-        {
-            Blur.Downsample = int.Parse(DownsampleValueText.text);
-        }
         #endregion
     }
 }

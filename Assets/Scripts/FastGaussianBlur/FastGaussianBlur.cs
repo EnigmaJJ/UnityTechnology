@@ -9,7 +9,6 @@
 *******************************************************************************/
 
 using UnityEngine;
-using HedgehogTeam.EasyTouch;
 
 namespace UnityTechnology
 {
@@ -41,7 +40,6 @@ namespace UnityTechnology
         private void Awake()
         {
             m_BlurRadiusPropertyNameID = Shader.PropertyToID("_BlurRadius");
-            EasyTouch.On_TouchStart += OnTouchStart;
         }
 
         private void OnRenderImage(RenderTexture _src, RenderTexture _dest)
@@ -95,11 +93,6 @@ namespace UnityTechnology
             
             RenderTexture.ReleaseTemporary(temporaryRT_1);
             RenderTexture.ReleaseTemporary(temporaryRT_2);
-        }
-
-        private void OnTouchStart(Gesture _gesture)
-        {
-            BlurKernelType = (EBlurKernelType)(((int)BlurKernelType + 1) % 3);
         }
         #endregion
     }
