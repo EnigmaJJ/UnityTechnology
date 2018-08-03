@@ -25,7 +25,7 @@ public class EasyTouchWelcomeScreen : EditorWindow {
 	private static Texture cIcon;
 	private static Texture jsIcon;
 	private static Texture playmakerIcon;
-	private static Texture topicIcon;
+	//private static Texture topicIcon;
 
 
 	[MenuItem("Tools/Easy Touch/Welcome Screen", false, 0)]

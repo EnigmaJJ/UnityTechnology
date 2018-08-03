@@ -8,7 +8,7 @@
  * CREATED: 2018.06.22, 19:07, CST
 *******************************************************************************/
 
-Shader "Custom/Fast Gaussian Blur"
+Shader "Unity Technology/Fast Gaussian Blur"
 {
     Properties
     {

@@ -8,13 +8,13 @@
  * CREATED: 2018.07.15, 12:18, CST
 *******************************************************************************/
 
-using Unity.Jobs;
+using Unity.Burst;
 using UnityEngine;
 using UnityEngine.Jobs;
 
 namespace UnityTechnology
 {
-    [ComputeJobOptimization]
+    [BurstCompile]
     public struct MovementJob : IJobParallelForTransform
     {
         #region Variables

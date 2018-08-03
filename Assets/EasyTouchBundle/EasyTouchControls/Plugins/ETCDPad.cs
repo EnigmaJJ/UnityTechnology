@@ -75,7 +75,7 @@ public class ETCDPad : ETCBase, IDragHandler,  IPointerDownHandler, IPointerUpHa
 	#endregion
 	
 	#region Private members
-	private Image cachedImage; 
+	//private Image cachedImage; 
 	#endregion
 
 	#region Constructor

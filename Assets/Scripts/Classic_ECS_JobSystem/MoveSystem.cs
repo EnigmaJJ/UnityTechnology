@@ -9,6 +9,7 @@
 *******************************************************************************/
 
 using Unity.Jobs;
+using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;
 using Unity.Mathematics;
@@ -19,7 +20,7 @@ namespace UnityTechnology
     public class MoveSystem : JobComponentSystem
     {
         #region MovementJob
-        [ComputeJobOptimization]
+        [BurstCompile]
         private struct MovementJob : IJobProcessComponentData<Position, Rotation, MoveSpeed>
         {
             #region Variables
